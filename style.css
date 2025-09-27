@@ -3,7 +3,6 @@
 * {
 	padding: 0;
 	margin: 0;
-	list-style: none;
 }
 
 html {
@@ -13,16 +12,14 @@ html {
 body {
 	color: #000;
 	background-color: #EBE8E6;
-	/* font-family: "貂ｸ繧ｴ繧ｷ繝�け", "Yu Gothic", YuGothic, "繝偵Λ繧ｮ繝手ｧ偵ざ ProN W3", "Hiragino Kaku Gothic ProN", "繝｡繧､繝ｪ繧ｪ", Meiryo, Osaka, "�ｭ�ｳ 繧ｴ繧ｷ繝�け", "MS Gothic", sans-serif; */
-	font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    word-wrap: break-word;
+	font-family: "貂ｸ繧ｴ繧ｷ繝�け", "Yu Gothic", YuGothic, "繝偵Λ繧ｮ繝手ｧ偵ざ ProN W3", "Hiragino Kaku Gothic ProN", "繝｡繧､繝ｪ繧ｪ", Meiryo, Osaka, "�ｭ�ｳ 繧ｴ繧ｷ繝�け", "MS Gothic", sans-serif;
+	word-wrap: break-word;
 	height: 100%;
 	background-image: url(../img/bg_01.png);
 }
 
 .font_mincho {
-	font-family: "Hiragino Mincho ProN", "Yu Mincho", "Sawarabi Mincho", serif;
-    /* font-family: "繝偵Λ繧ｮ繝取�譛� ProN W3", "Hiragino Mincho ProN", "貂ｸ譏取悃", YuMincho, "Sawarabi Mincho", "HG譏取悃E",  "�ｭ�ｳ �ｰ譏取悃", "MS PMincho", serif; */
+	font-family: "繝偵Λ繧ｮ繝取�譛� ProN W3", "Hiragino Mincho ProN", "貂ｸ譏取悃", YuMincho, "Sawarabi Mincho", "HG譏取悃E",  "�ｭ�ｳ �ｰ譏取悃", "MS PMincho", serif;
 }
 .font_garamond {
 	font-family: 'Cormorant Garamond', serif;
@@ -249,7 +246,7 @@ header .h_tel a i {
 }
 
 .pankuzu {
-	background-color: #000000;
+	background-color: #01425d;
 	margin-bottom: 20px;
 	font-size: 14px;
 	line-height: 30px;
@@ -259,7 +256,7 @@ header .h_tel a i {
 	padding-bottom: 10px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: black;
+	border-bottom-color: #;
 }
 
 .pankuzu ul {
@@ -314,9 +311,9 @@ header .h_tel a i {
 
 #top_slide {
 	padding-top: 100px;
-	background-color: #000000;
+	background-color: #14749C;
 	padding-bottom: 10px;
-	/* background-image: url(../img/bg_03.png); */
+	background-image: url(../img/bg_03.png);
 }
 
 #sub_top {
@@ -1136,9 +1133,9 @@ ul.works_list li a:hover {
 }
 
 /*繧ｭ繝｣繝�メ閭梧勹縲襍､邉ｻ*/
-/* .top_base.cl_01 {
+.top_base.cl_01 {
 
-} */
+}
 
 /*繧ｭ繝｣繝�メ閭梧勹縲邱醍ｳｻ*/
 .top_base.cl_02 {
@@ -1793,7 +1790,7 @@ ul.works_list li {
 	padding-bottom: 14px;
 	padding-left: 20px;
 	line-height: 22px;
-	/* vertical-align: middle; */
+	vertical-align: middle;
 	background-color: rgba(0, 0, 0, 0.1);
 }
 #g_navi ul li a:hover {

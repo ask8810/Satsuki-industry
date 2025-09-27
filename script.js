@@ -25,7 +25,7 @@ $(window).scroll(function () {
 
 $(window).scroll(function () {
 	var w_h = $(window).height();
-		var s_top = $(this).scrollTop(); 
+		var s_top = $(this).scrollTop(); //繧ｹ繧ｯ繝ｭ繝ｼ繝ｫ縺ｮ蛟､繧貞叙蠕�
 		var l_top = w_h / 2;
 		var ml_top = l_top + s_top / 2;
 
@@ -60,7 +60,7 @@ return false;
 
 
 
-
+//繧ｹ繝槭�繝｡繝九Η繝ｼ
 var bnrBtn = $('#g_navi');
 var menuOpen = false;
 var scrollpos;
@@ -102,7 +102,7 @@ $('#g_navi a[href]').on('click', function(event) {
 });
 
 
-
+//繧｢繧ｳ繝ｼ繝�ぅ繧ｪ繝ｳ
 $(function(){
         $(".ac_menu").on("click", function() {
             $(this).next().slideToggle(); 
@@ -110,7 +110,7 @@ $(function(){
         });
 });
 
-
+// 繧ｵ繧､繝医い繧ｯ繧ｻ繧ｹ譎ゅヵ繧ｧ繝ｼ繝峨う繝ｳ 
 $(function(){
  
     $('body').hide();
